@@ -53,4 +53,24 @@ git branch
 git branch css
 git checkup css
 ```
+envoie du css ( apres ça creation )
+
+```bash
+git add *
+git commit -m "creation du css"
+git push -u origin css
+```
+maintenant la creation du HTML
+
+```bash
+mkdir site_web
+mkdir html
+nano site_web
+git add site_web
+git commit -m "creation du html"
+git push -u origin site_web
+```
+entre temps j'ai aussi fait un autre commit pour la modif du html
+
+maintenant, il y a un autre probleme, le pull ne marche pas, probleme de branche divergente.
 
